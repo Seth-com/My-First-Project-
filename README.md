@@ -14,8 +14,8 @@
 - Git + GitHub for version control
 
  ## Day 1-7 Progress
-   Week 1: HTML basics + CSS fundamentals
-   Week 2: Box model, Flexbox coming next
+ - Week 1: HTML basics + CSS fundamentals
+ - Week 2: Box model, Flexbox coming next
 
  ## Author
    Seth - 12 week journey to full-stack
