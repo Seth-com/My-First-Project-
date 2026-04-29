@@ -5,17 +5,17 @@
  [view site](https://seth-com.github.io/My-First-Project-/)
  
 ## Built with
--Html5
--CSS3
+- Html5
+- CSS3
 
 ## What I learnt
 - HTML structure: headings, lists, forms
 - CSS basics: selectors, colors, box model
 - Git + GitHub for version control
 
-  ## Day 1-7 Progress
+ ## Day 1-7 Progress
    Week 1: HTML basics + CSS fundamentals
    Week 2: Box model, Flexbox coming next
 
-  ## Author
+ ## Author
    Seth - 12 week journey to full-stack
