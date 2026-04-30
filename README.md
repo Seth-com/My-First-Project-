@@ -3,7 +3,7 @@
 My first website built from scratch using HTML + CSS. I'm learning web dev one day at a time.
 
 ### 🚀 Live Demo
-[View Live Site](https://seth-com.github.io/My-First-Project)
+[View Live Site](https//seth-com.github.io/My-First-Project/-)
 *Replace with your actual GitHub Pages link*
 
 ### 🛠️ Built With
