@@ -95,6 +95,7 @@ button:hover{
     box-shadow: 0 0 2 0.3px gray;
     color: #042c47;
     transform: translate(-3PX);
+    color: white;
 }
 button:active{
     color:whitesmoke;

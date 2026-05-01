@@ -33,7 +33,7 @@ My first website built from scratch using HTML + CSS. I'm learning web dev one d
 - [x] Added `:hover` and `active` pseudo-classes
 - [x] Used `transition` for smooth animations 
 - [x] Aplied `transform: translateY()` for lift effect
-- [x] Added `box-shadow` for depth and `border-radius` for modern look
+- [x] Added `box-shadow` for depth and `border-radius` for modern look  
 
 #### **Week 3: JavaScript** 📅 Upcoming
 - [ ] Coming soon...
