@@ -3,8 +3,7 @@
 My first website built from scratch using HTML + CSS. I'm learning web dev one day at a time.
 
 ### 🚀 Live Demo
-[View Live Site](https//seth-com.github.io/My-First-Project/-)
-*Replace with your actual GitHub Pages link*
+[View Live Site](https://seth-com.github.io/My-First-Project-/)
 
 ### 🛠️ Built With
 - HTML5
@@ -30,9 +29,11 @@ My first website built from scratch using HTML + CSS. I'm learning web dev one d
 - [x] Learned `flex: 1`, `gap`, and `flex-direction: column`
 - [x] Made form responsive-ready
 
-**Day 4: Coming Next** ⏳
-- [ ] Button hover effects and shadows
-- [ ] Improve form styling and UX
+**Day 4: Button UX** ⏳
+- [x] Added `:hover` and `active` pseudo-classes
+- [x] Used `transition` for smooth animations 
+- [x] Aplied `transform: translateY()` for lift effect
+- [x] Added `box-shadow` for depth and `border-radius` for modern look
 
 #### **Week 3: JavaScript** 📅 Upcoming
 - [ ] Coming soon...
