@@ -31,20 +31,21 @@ h2{
     margin-left: 4px;
 }
 
-#contact input,  textarea{
+#contact input, #contact textarea{
     width: 100%;
     box-sizing: border-box;
     padding: 8px;
-    border-style: solid;
-    border: none;
-    border-radius: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 
 #contact h2{
     text-align: center;
-    color: re;
+    color: #1f2937;
+    font-weight: 700px;
     margin-bottom: 25px;
+    text-decoration: underline black;
 }
 
 #contact{
@@ -75,7 +76,7 @@ nav{
 
 button{
     padding: 12px 24px;
-    border: 1px solid;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -93,12 +94,12 @@ button{
 button:hover{
     text-decoration: underline;
     box-shadow: 0 0 2 0.3px gray;
-    color: #042c47;
+    background-color: white;
     transform: translate(-3PX);
-    color: white;
+    color: #3498db;
 }
 button:active{
-    color:whitesmoke;
+    color:#3498db;
     text-decoration: none;
     transform: translateY(0px);
 }
@@ -119,28 +120,73 @@ p{
 
 .input-row{
     display: flex;
-    gap: 25px;
-    margin-bottom: 15px;
+    gap: 16px;
+    align-items: flex-start;
 }
 
-.input-row input{
-    flex: 1;
-}
 
 .input-group{
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
-.input-group input{
-    width: 100%;
-    padding: 8px;
-}
+
 
 textarea{
     width: 100%;
     margin-bottom: 15px;
+}
+input:focus, textarea:focus{
+    outline:none;
+    border: 2px solid #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+
+button:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+     
+}
+
+input:invalid{
+    border-color: #ef4444;
+}
+
+.error-message{
+    color:#ef4444;
+    font-size: 14px;
+    margin-top: 4px;
+    display: none;
+}
+
+
+.form-group{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form:invalid button{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+input:invalid:not(focus):not(placeholder-show){
+    border-color: #ef4444;
+}
+
+input:invalid:not(focus):not(placeholder-show){
+    display: block;
+}
+
+.error-message{
+    min-height: 16px;
+    color: #ef4444;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.input-group input{
+    border: 1px solid #ccc;
 }
 

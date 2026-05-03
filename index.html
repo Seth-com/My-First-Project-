@@ -47,15 +47,16 @@
             <h2>Contact Me</h2>
         <form>
              <div class="input-row">
-
+                
                 <div class="input-group">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <span class="error-message">put in correct details</span>
                 </div>
 
                 <div class="input-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Type in your email">
+            <input class="cont_email" type="email" id="email" name="email" placeholder="Type in your email" required>
                 </div>
              </div>
             
@@ -63,8 +64,10 @@
             <textarea type="message" id="message" name="message" rows="4" placeholder="Your message"></textarea>
 
             <button type="submit">Send</button>
+            
         </form>
     </div>
     </section>
+
 </body>
 </html>
